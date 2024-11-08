@@ -9,7 +9,7 @@ jobs:
     timeout-minutes: 60
     runs-on: ubuntu-latest
     steps:
-    - name: Get Code
+    - name: Get code
       uses: actions/checkout@v4
   
     - name: Install Node 18
