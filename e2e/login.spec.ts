@@ -7,7 +7,7 @@ test('usuário obrigatório', async ({ page }) => {
 
 test('senha obrigatória', async ({ page }) => {
   await login(page,'qa', '')
-  await toast(page, 'Informe a sua senha secreta!')
+  await toast(page, 'Informe a sua senha secretaaa!')
 })
 
 test('usuário não existe', async ({ page }) => {
